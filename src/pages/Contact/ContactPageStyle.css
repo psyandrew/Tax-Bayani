@@ -189,7 +189,7 @@ h2.contact-h2 {
    .contact-h2{
       background-position: center;
       font-size: 3rem !important;
-      min-height: 250px;
+      min-height: 300px;
    }
    h2.contact-h2 { 
         font-size: 3rem !important; /* Use !important only as a last resort diagnostic */
