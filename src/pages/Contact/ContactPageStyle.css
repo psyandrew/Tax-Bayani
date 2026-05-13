@@ -33,6 +33,10 @@
    text-align: center;
    border-bottom: 1px solid var(--accent-color-1);
 }
+h2.contact-h2 { 
+        font-size: 2rem !important; /* Use !important only as a last resort diagnostic */
+}
+
 .visually-hidden {
    position: absolute;
   width: 1px;
@@ -187,6 +191,9 @@
       font-size: 2rem !important;
       min-height: 250px;
    }
+   h2.contact-h2 { 
+        font-size: 2rem !important; /* Use !important only as a last resort diagnostic */
+    }
 }
 
 @media (min-width: 1024px) {
