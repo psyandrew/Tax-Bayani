@@ -21,7 +21,7 @@
    background-position: top;
    background-repeat: no-repeat;
    min-height: 200px;
-   font-size: 2rem;
+   font-size: 2rem !important;
    width: 100%;
    font-family: var(--font-3);
    line-height: 1.25;
@@ -184,7 +184,7 @@
 @media (min-width: 500px){
    .contact-h2{
       background-position: center;
-      font-size: 2rem;
+      font-size: 2rem !important;
       min-height: 250px;
    }
 }
