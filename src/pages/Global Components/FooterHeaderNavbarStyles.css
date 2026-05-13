@@ -1,3 +1,4 @@
+/* --- 1. BASE MOBILE STYLES (Mobile First) --- */
 .header-navbar {
   font-family: var(--font-3);
   background-color: var(--primary-color);
@@ -29,15 +30,14 @@
   gap: 10px;
   letter-spacing: 2px;
   font-weight: bold;
-  flex-shrink: 0;
 }
 
 .logo-image {
+
   height: 80px;
-  width: auto; /* Keeps the aspect ratio perfect */
+  width: auto;
   display: block;
-  border-radius: 50%; /* 50% is standard for a perfect circle */
-  object-fit: contain;
+  border-radius: 100%;
 }
 
 .navmenu {
@@ -47,8 +47,6 @@
   align-items: center;
   width: 100%;
 
-  white-space: nowrap;
-  -webkit-overflow-scrolling: touch;
 }
 
 .nav-btn { 
@@ -83,8 +81,6 @@
     flex-direction: row;
     height: 100%;
     padding: 0 6rem 0 6rem;
-    justify-content: space-between;
-    align-items: center;
   }
 
   .logo-placeholder {
@@ -111,13 +107,13 @@
   }
 
    .navbar-container {
-    padding: 0 10rem 0 10rem;
+    padding: 0 8rem 0 8rem;
     justify-content: space-between;
   }
 
   .nav-btn {
     font-size: 1.5rem;
-    padding: 0 2rem;
+    padding: 25px 2rem;
   }
 }
 /**/
