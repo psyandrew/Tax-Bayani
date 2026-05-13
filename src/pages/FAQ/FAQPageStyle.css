@@ -1,0 +1,75 @@
+.query-headline {
+  background-image: url('../Assets/faq-banner.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 200px;
+  font-size: 1.25rem;
+  width: 100%;
+  font-family: var(--font-3);
+  line-height: 1.25;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+
+.query-body{
+  min-height: 200px;
+  background-color: var(--bg-color-1);
+  border-top: 1px solid var(--accent-color-1);
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 1024px) {
+  .query-body{
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .query-container{
+
+    max-width: 900px;
+
+  }
+}
+
+.query-container{
+  padding: 30px 25px 25px 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 1000px;
+}
+
+.qna{
+ display: flex;
+ flex-direction: column;
+ gap: 25px;
+}
+
+.qna-q{
+  font-size: 1.5rem;
+  font-family: var(--font-3);
+  color: var(--accent-color-2);
+}
+
+.qna-a{
+  text-align: justify;
+  font-size: 1.25rem;
+  font-family: var(--font-3);
+  text-justify: inter-word; 
+  text-wrap: pretty;
+  line-height: 1.5;
+}
+
+{
+  
+}

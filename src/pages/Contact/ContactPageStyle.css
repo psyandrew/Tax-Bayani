@@ -1,0 +1,226 @@
+.contact-headline {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 1rem;
+  background-color: var(--bg-color-1);
+}
+
+.contact-sell{
+   display: flex;
+   flex-direction: column;
+   padding: 0 1rem;
+   font-family: var(--font-3);
+}
+
+.contact-h2{
+   background-image: url('../Assets/contact-banner.jpg');
+   background-size: cover;
+   background-position: top;
+   background-repeat: no-repeat;
+   min-height: 200px;
+   font-size: 2rem;
+   width: 100%;
+   font-family: var(--font-3);
+   line-height: 1.25;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   border-bottom: 1px solid var(--accent-color-1);
+}
+.visually-hidden {
+   position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.contact-body{
+   background-color: var(--bg-color-1);
+   font-family: var(--font-4);
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+.contact-invite {
+   padding: 3rem 1.75rem;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+}
+
+
+.contact-page-details{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   text-align: center;
+   gap: 1.5rem;
+   font-size: 1.25rem;
+}
+
+.contact-info-item{
+   display: flex;
+   flex-direction: row; 
+   align-items: center;
+   gap: 0.5rem;
+}
+
+.icon-wrapper{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: white;
+   background-color: var(--accent-color-1);
+   padding: 5px;
+   border-radius: 100px;
+   border: 1px solid white;
+}
+
+.contact-form-container {
+   width: 100%;
+   max-width: 500px; /* Adjust based on your design */
+}
+
+.contact-form{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   gap: 0.5rem;
+
+}
+
+.form-group {
+  display: flex;
+  flex-direction: row;
+  width: 90%; 
+}
+
+.form-group input,
+.form-group textarea {
+   width: 100%; 
+  /* Flex: 1 ensures it grows to fill the container */
+  flex: 1;
+   color: whitesmoke;
+   padding: 12px 12px 12px 12px; /* Extra left padding to clear the 30px icons */
+   border: 1px solid #d1d5db;
+   background-color: var(--bg-color-3);
+   font-family: inherit;
+   font-size: 1rem;
+   transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+/* Specific adjustment for textarea since it likely won't have an icon overlay */
+.form-group textarea {
+
+  resize: vertical; /* Prevents users from breaking your layout horizontally */
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: var(--accent-color-1);
+  box-shadow: 0 0 0 3px rgba(var(--accent-color-rgb), 0.1); /* Subtle glow using your accent */
+}
+
+/* Placeholder styling */
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+  color: #9ca3af;
+  font-weight: 400;
+}
+
+
+.submit-btn {
+  /* Layout */
+  margin: 1.5rem 0 2rem 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.8rem 2.5rem;
+  width: fit-content;
+  
+  /* Brand Styling */
+  background-color: var(--accent-color-1);
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  
+  /* Typography */
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  
+  /* Interactions */
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.submit-btn:hover {
+  background-color: var(--accent-color-2);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.submit-btn:active {
+  transform: translateY(0); /* "Pushes" down when clicked */
+}
+
+@media (min-width: 500px){
+   .contact-h2{
+      background-position: center;
+      font-size: 2rem;
+      min-height: 200px;
+   }
+}
+
+@media (min-width: 1024px) {
+
+  .contact-body{
+    flex-direction: row;
+    align-items: start;
+    gap: 1rem;
+  }
+  .contact-form {
+   padding:1.25rem 0;
+   }
+   .contact-invite {
+   padding: 1.25rem 0 0 0;
+   }
+   .contact-page-details{
+      font-size: 1.75rem;
+   }
+}
+
+.contact-logo-item{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+}
+
+.contact-logo{
+   padding: 2rem 0;
+   background-image: url('../Assets/logo.png');
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   height:125px;
+   width: 125px;
+   border-radius: 100%;
+}

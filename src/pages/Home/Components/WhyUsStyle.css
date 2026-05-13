@@ -1,0 +1,78 @@
+/* WHY US SECTION */
+.y-us-section {
+  padding-top: 3rem;
+  background-color: var(--bg-color-1); 
+}
+
+.y-us-h2 {
+  text-align: center;
+  font-family: var(--font-3);
+  font-size: 1.75rem;
+  color: var(--accent-color-2);
+}
+
+.y-us-feature-card-container {
+  padding: 1.5vh 15px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1vh;
+}
+
+.y-us-card {
+  text-align: center;
+  width: 325px;
+  display: flex;
+  flex-direction: column;
+  padding: 30px 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+.y-us-icon-bg {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  background-color: var(--accent-color-2); 
+  border: 4px solid var(--accent-color-1);
+  border-radius: 100px;
+  transition: transform 0.8s ease;
+}
+
+.y-us-icon {
+  color: var(--bg-color-3);
+  transition: transform 0.8s ease;
+}
+
+.y-us-card-content-header {
+  font-family: var(--font-2);
+  font-size: 1.5rem;
+}
+
+.y-us-card-content-sell {
+  text-align: center;
+  color: white;
+  font-family: var(--font-4);
+  font-size: 1.25rem;
+}
+
+.y-us-card:hover .y-us-icon {
+  color: white;
+  transform: scale(1.1);
+}
+
+/* RESPONSIVE WHY US */
+@media screen and (min-width: 768px) {
+  .y-us-h2 {
+    font-size: 2rem;
+  }
+  .y-us-feature-card-container {
+    display: flex;
+    flex-direction: row;
+  }
+}

@@ -1,0 +1,19 @@
+/* GLOBAL RESETS */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* MAIN LAYOUT WRAPPERS */
+.headliner {
+  background-color: var(--primary-color);
+  min-height: 50vh;
+  width: 100%;
+  border-bottom: 1px solid var(--accent-color-2);
+}
+
+.targets {
+  background-color: var(--primary-color);
+  min-height: 20vh;
+}

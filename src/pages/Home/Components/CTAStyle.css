@@ -1,0 +1,50 @@
+/* CTA / CONTACT SECTION */
+.cta {
+  border-top: 1px solid var(--accent-color-1);
+  border-bottom: 1px solid var(--accent-color-1);
+  background-color: var(--primary-color);
+  width: 100%;
+  font-family: var(--font-4);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-card-container {
+  display: flex;
+  flex-direction: column; 
+  gap: 20px;
+  padding: 10px 20px; 
+  width: 100%;
+  align-items: center; 
+}
+
+.contact-card {
+  font-size: 1.25rem; 
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.contact-icon {
+  color: var(--accent-color-2);
+}
+
+/* RESPONSIVE CTA */
+@media (min-width: 768px) {
+  .contact-card-container {
+    flex-direction: row;
+    justify-content: center; 
+    gap: 50px; 
+    max-width: 1000px; 
+    margin: 0 auto; 
+    padding: 10px 75px;
+  }
+  .contact-card {
+    flex: 1; 
+    text-align: center;
+  }
+}
