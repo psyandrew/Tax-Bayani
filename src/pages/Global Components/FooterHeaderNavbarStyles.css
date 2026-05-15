@@ -15,6 +15,7 @@
   display: flex;
   margin: 0 auto;
   flex-direction: column; 
+  justify-content: space-between;
   align-items: center;
   
 }
@@ -80,7 +81,7 @@
   .navbar-container {
     flex-direction: row;
     height: 100%;
-    padding: 0 6rem 0 6rem;
+    padding: 0 3rem;
   }
 
   .logo-placeholder {
@@ -95,7 +96,6 @@
   .nav-btn {
     font-size: 1.1rem;
     height: 100%;
-    padding: 0 15px;
     border-bottom: 10px solid transparent;
     flex: 0 1 auto; /* Allow items to sit naturally */
   }
