@@ -29,7 +29,7 @@ function ServicesPage() {
     <section className="services-page">
       < HeaderNavbar/>
       < ServicesSection bg={'dkg'} secID={'tax-compliance'} pic={'test'} head={'TAX COMPLIANCE'}/>
-      < ServicesSection bg={'ltg'} secID={'fiscal-reporting'} pic={'fiscal-rep2'} head={'FISCAL REPORTING'} />
+      < ServicesSection bg={'ltg'} secID={'fiscal-reporting'} pic={'fiscal-rep'} head={'FISCAL REPORTING'} />
       < ServicesSection bg={'dkg'} secID={'business-permits'} pic={'business-perm'} head={'BUSINESS PERMITS'}/>
       < ServicesSection bg={'ltg'} secID={'business-transition'} pic={'business-transition'} head={'BUSINESS TRANSITION'}/>
       < Footer/>
