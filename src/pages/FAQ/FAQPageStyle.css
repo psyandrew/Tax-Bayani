@@ -4,7 +4,7 @@
   background-position: center;
   background-repeat: no-repeat;
   min-height: 300px;
-  font-size: 2.5rem !important;
+  font-size: 1.25rem !important;
   width: 100%;
   font-family: var(--font-3);
   line-height: 1.25;
@@ -16,7 +16,7 @@
 }
 
 h2.query-headline {
-  font-size: 2.5rem !important; 
+  font-size: 1.25rem !important; 
 }
 
 .query-body{
@@ -42,6 +42,14 @@ h2.query-headline {
     max-width: 900px;
 
   }
+  .query-headline {
+  font-size: 1.25rem !important;
+}
+
+  h2.query-headline {
+  font-size: 2rem !important; 
+  }
+
 }
 
 .query-container{
