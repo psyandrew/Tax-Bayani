@@ -42,8 +42,11 @@ h2.query-headline {
     max-width: 900px;
 
   }
+
+
   .query-headline {
-  font-size: 2rem !important;
+    min-height: 300px;
+    font-size: 2rem !important;
   }
 
   h2.query-headline {
