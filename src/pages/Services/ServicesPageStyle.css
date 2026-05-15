@@ -58,8 +58,8 @@
 	background-size: cover;
 }
 
-.fiscal-rep{
-	background-image: url('../Assets/fiscal-rep2.png');
+.fiscal-rep2{
+	background-image: url('../Assets/fiscal-rep.png');
 	background-position: center;
 	background-size: cover;
 }
@@ -87,7 +87,7 @@
 
 @media (min-width: 1024px) {
 
-	.fiscal-rep{
+	.fiscal-rep2{
 		background-position: bottom;
 	}
 
