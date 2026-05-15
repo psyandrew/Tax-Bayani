@@ -231,3 +231,10 @@ h2.contact-h2 {
    width: 125px;
    border-radius: 100%;
 }
+
+.logo-image-contact-page {
+    border-radius: 100%;
+    display: block;
+    height: 175px;
+    width: auto;
+}
