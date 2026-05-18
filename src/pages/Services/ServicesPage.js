@@ -18,7 +18,7 @@ function ServicesPage() {
       const element = document.getElementById(id);
       
       if (element) {
-        element.scrollIntoView({ behavior: 'auto' });
+        element.scrollIntoView({ behavior: 'auto', block: 'start' });
       }
     }
   }, [hash]); // This ensures it runs every time the URL hash changes
