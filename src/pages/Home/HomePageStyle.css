@@ -28,8 +28,7 @@
   text-align: center;
   font-size: 1.5rem;
   font-family: var(--font-4);
-  background-color: var(--accent-color-2);
-  border: 2px solid var(--accent-color-1);
+  background-color: var(--accent-color-1);
   text-decoration: none;
   padding: 20px 20px;
   border-radius: 10px;
@@ -39,6 +38,7 @@
 }
 
 .banner-btn:hover {
+  background-color: var(--accent-color-2);
   cursor: pointer;
   transform: scale(1.05);
 }
