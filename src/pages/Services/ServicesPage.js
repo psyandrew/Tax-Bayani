@@ -17,11 +17,24 @@ function ServicesPage() {
       const id = hash.replace('#', '');
       const element = document.getElementById(id);
       
-      if (element) {
-        element.scrollIntoView({ behavior: 'auto', block: 'start' });
-      }
+     if (element) {
+      // 1. Define your navbar height (e.g., 80 pixels)
+      const navbarHeight = 80; 
+      
+      // 2. Get the element's distance from the top of the page
+      const elementPosition = element.getBoundingClientRect().top + window.pageYOffset;
+      
+      // 3. Subtract the navbar height so you stop just short of it
+      const offsetPosition = elementPosition - navbarHeight;
+
+      // 4. Scroll to that exact calculated pixel
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: 'auto' // Keeps your instant snap requirement
+      });
     }
-  }, [hash]); // This ensures it runs every time the URL hash changes
+  }
+}, [hash]); // This ensures it runs every time the URL hash changes
 
 
 
