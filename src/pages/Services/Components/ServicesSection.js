@@ -6,6 +6,8 @@ import React from 'react';
 export default function ServicesSectionTest({ bg, pic, txtblock, secID, head }) {
   return (
     <section className={`service-section ${bg}`} id={secID}>
+      <div id={secID}>
+      </div>
       <div className="services-container">
         <div className={`pic-container ${pic}`}>
           <h2>{head}</h2>
