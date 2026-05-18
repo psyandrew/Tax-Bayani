@@ -1,8 +1,12 @@
-function ServiceCard({serviceCardProp, icon: Icon, stroke}){
+import { useNavigate } from 'react-router-dom';
+
+function ServiceCard({serviceCardProp, icon: Icon, stroke, linkTo}){
                                       // Assign to a capitalized variable so it can be used as a component
 
+  const navigate = useNavigate();
+
   return (
-  <article className="service-card">
+  <article className="service-card" onClick={() => navigate(linkTo)} >
     <Icon className="service-icon"
     height={90} width={90} 
     strokeWidth={stroke} 

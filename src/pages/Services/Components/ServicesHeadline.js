@@ -1,7 +1,7 @@
 function ServicesHeadline() {
   return (
     <section className="services-headline">
-      <h2>SERVICES</h2>
+      <h2>OUR SERVICES</h2>
     </section >
   );
 }

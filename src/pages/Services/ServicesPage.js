@@ -1,7 +1,7 @@
 import './ServicesPageStyle.css';
 import HeaderNavbar from '../Global Components/HeaderNavbar.js'
 import Footer from '../Global Components/Footer.js'
-//import ServicesHeadline from './Components/ServicesHeadline.js'
+import ServicesHeadline from './Components/ServicesHeadline.js'
 import ServicesSection from './Components/ServicesSection.js'
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
@@ -18,7 +18,7 @@ function ServicesPage() {
       const element = document.getElementById(id);
       
      if (element) {
-      // 1. Define your navbar height (e.g., 80 pixels)
+      // 1. Define your navbar height
       const navbarHeight = 80; 
       
       // 2. Get the element's distance from the top of the page
@@ -42,10 +42,11 @@ function ServicesPage() {
   return (
     <section className="services-page">
       < HeaderNavbar/>
-      < ServicesSection bg={'dkg'} secID={'tax-compliance'}  txtblock={'TC'} pic={'tax-compliance'} head={'TAX COMPLIANCE'}/>
-      < ServicesSection bg={'ltg'} secID={'fiscal-reporting'} txtblock={'FR'}  pic={'fiscal-rep'} head={'FISCAL REPORTING'} />
-      < ServicesSection bg={'dkg'} secID={'business-permits'} txtblock={'BP'}  pic={'business-perm'} head={'BUSINESS PERMITS'}/>
-      < ServicesSection bg={'ltg'} secID={'business-transition'} txtblock={'BT'}  pic={'business-transition'} head={'BUSINESS TRANSITION'}/>
+      < ServicesHeadline />
+      < ServicesSection bg={'ltg'} secID={'tax-compliance'}  txtblock={'TC'} pic={'tax-compliance'} head={'TAX COMPLIANCE'}/>
+      < ServicesSection bg={'dkg'} secID={'fiscal-reporting'} txtblock={'FR'}  pic={'fiscal-rep'} head={'FISCAL REPORTING'} />
+      < ServicesSection bg={'ltg'} secID={'business-permits'} txtblock={'BP'}  pic={'business-perm'} head={'BUSINESS PERMITS'}/>
+      < ServicesSection bg={'dkg'} secID={'business-transition'} txtblock={'BT'}  pic={'business-transition'} head={'BUSINESS TRANSITION'}/>
       < Footer/>
     </section >
   );

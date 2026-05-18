@@ -8,6 +8,24 @@
 	width: 100%;
 }
 
+.services-headline {
+  background-image: url('../Assets/services-banner.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 250px;
+  font-size: 1.25rem !important;
+  width: 100%;
+  font-family: var(--font-3);
+  line-height: 1.25;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-bottom: 1px solid var(--accent-color-1);
+}
+
 .ltg{
 	background-color: var(--bg-color-1);
 }
@@ -24,6 +42,8 @@
 	gap: 1rem;
 	padding: 2rem 0;
 }
+
+
 
 .pic-container{
 	border: 1px solid var(--accent-color-1);
@@ -91,6 +111,15 @@
 }
 
 @media (min-width: 1024px) {
+
+	.services-headline {
+    	min-height: 300px;
+    	font-size: 3rem !important;
+  	}
+
+  	h2.services-headline {
+  		font-size: 3rem !important; 
+  	}
 
 	.fiscal-rep{
 		background-position: bottom;
