@@ -2,7 +2,6 @@ import './ServicesPageStyle.css';
 import HeaderNavbar from '../Global Components/HeaderNavbar.js'
 import Footer from '../Global Components/Footer.js'
 import ServicesSection from './Components/ServicesSection.js'
-
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 
