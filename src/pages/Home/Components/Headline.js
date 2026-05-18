@@ -10,7 +10,7 @@ function Headline() {
       <p>We built TaxBayani because we believe navigating the paperwork to run a business or a freelance profession shouldn't keep you up at night.</p>
       <p>Whether you need to register your startup, manage your fiscal woes, or stay 100% tax compliant, we’ve got your back</p>
       
-      <button onClick={() => navigate('/contact')}><p>Get In Touch</p></button>
+      <button className="banner-button"onClick={() => navigate('/contact')}><p>Get In Touch</p></button>
     </section>
   );
 }
