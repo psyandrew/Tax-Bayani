@@ -2,6 +2,7 @@ import './ServicesPageStyle.css';
 import HeaderNavbar from '../Global Components/HeaderNavbar.js'
 import Footer from '../Global Components/Footer.js'
 import ServicesSection from './Components/ServicesSection.js'
+
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 
@@ -28,10 +29,10 @@ function ServicesPage() {
   return (
     <section className="services-page">
       < HeaderNavbar/>
-      < ServicesSection bg={'dkg'} secID={'tax-compliance'} pic={'tax-compliance'} head={'TAX COMPLIANCE'}/>
-      < ServicesSection bg={'ltg'} secID={'fiscal-reporting'} pic={'fiscal-rep'} head={'FISCAL REPORTING'} />
-      < ServicesSection bg={'dkg'} secID={'business-permits'} pic={'business-perm'} head={'BUSINESS PERMITS'}/>
-      < ServicesSection bg={'ltg'} secID={'business-transition'} pic={'business-transition'} head={'BUSINESS TRANSITION'}/>
+      < ServicesSection bg={'dkg'} secID={'tax-compliance'}  txtblock={'TC'} pic={'tax-compliance'} head={'TAX COMPLIANCE'}/>
+      < ServicesSection bg={'ltg'} secID={'fiscal-reporting'} txtblock={'FR'}  pic={'fiscal-rep'} head={'FISCAL REPORTING'} />
+      < ServicesSection bg={'dkg'} secID={'business-permits'} txtblock={'BP'}  pic={'business-perm'} head={'BUSINESS PERMITS'}/>
+      < ServicesSection bg={'ltg'} secID={'business-transition'} txtblock={'BT'}  pic={'business-transition'} head={'BUSINESS TRANSITION'}/>
       < Footer/>
     </section >
   );
