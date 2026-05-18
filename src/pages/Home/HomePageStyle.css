@@ -7,10 +7,19 @@
 
 /* MAIN LAYOUT WRAPPERS */
 .headliner {
-  background-color: var(--primary-color);
-  min-height: 50vh;
+ /* background-color: var(--primary-color); */
+  background-color: white;
+  color: darkred;
+  min-height: 80vh;
   width: 100%;
   border-bottom: 1px solid var(--accent-color-2);
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+h2.headliner{
+  font-size: 3rem;
 }
 
 .targets {
