@@ -4,7 +4,7 @@ function Headline() {
       <h2>test</h2>
       <p>test</p>
       <p>test</p>
-      <button></button>
+      <button><p>test</p></button>
     </section>
   );
 }
