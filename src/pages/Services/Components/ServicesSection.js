@@ -5,7 +5,7 @@ import React from 'react';
 // 1. MAIN COMPONENT (Kept clean at the top)
 export default function ServicesSectionTest({ bg, pic, txtblock, secID, head }) {
   return (
-    <section className={`service-section ${bg}`} id={secID}>
+    <section className={`service-section ${bg}`}>
       <div id={secID}>
       </div>
       <div className="services-container">
