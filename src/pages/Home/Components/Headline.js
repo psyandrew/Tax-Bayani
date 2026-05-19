@@ -1,4 +1,4 @@
-import { useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 function Headline() {
 
@@ -14,7 +14,7 @@ function Headline() {
       <p>We built TaxBayani because we believe navigating the paperwork to run a business or a freelance profession shouldn't keep you up at night.</p>
       
 
-      <a className="banner-btn"onClick={() => navigate('/contact')}>GET IN TOUCH</a>
+      <Link className="banner-btn"onClick={() => navigate('/contact')}>GET IN TOUCH</Link>
       </div>
     </section>
   );
