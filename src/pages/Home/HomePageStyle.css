@@ -7,7 +7,7 @@
 
 /* MAIN LAYOUT WRAPPERS */
 .headliner {
- /* background-color: var(--primary-color); */
+  background-color: var(--bg-color-1);
   background-color: white;
   color: darkred;
   min-height: 80vh;

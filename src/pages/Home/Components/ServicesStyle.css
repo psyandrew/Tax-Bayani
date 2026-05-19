@@ -26,7 +26,7 @@
 /* SERVICE CARDS */
 .service-feature-card-container {
   width: 100%;
-  margin-top: 2.5vh;
+  margin-top: 1.75vh;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -61,14 +61,14 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1.75vh;
+  gap: 1.5vh;
   padding: 0 20px;
   color: var(--accent-color-2);
 }
 
 .card-content-header {
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-family: var(--font-2);
 }
 
