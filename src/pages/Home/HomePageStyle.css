@@ -7,8 +7,9 @@
 
 /* MAIN LAYOUT WRAPPERS */
 .headliner {
-  background-image: url('../Assets/test-banner.jpg');
+  background-image: url('../Assets/home-banner.jpg');
   background-size: cover;
+  background-position: bottom;
   background-color: var(--bg-color-1);
   min-height: 90vh;
   width: 100%;
@@ -28,10 +29,10 @@
 
 .headline-sell-h2{
   color: var(--accent-color-2);
-  font-size: 1.5rem !important;
+  font-size: 2.75rem !important;
 }
 .headline-sell-p{
-    font-size: 1.25rem !important;
+    font-size: 1.75rem !important;
 }
 
 .banner-btn{
@@ -67,7 +68,7 @@
   }
   .headline-sell{
     padding: 0 0 0 15rem;
-    max-width: 800px;
+    max-width: 1000px;
   }
 
   .headline-sell-h2{
