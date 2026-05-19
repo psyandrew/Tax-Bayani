@@ -7,7 +7,6 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-color: var(--primary-color);
-  min-height: 20vh;
   padding: 2.5rem 2rem;
   display: flex;
   flex-direction: column;
