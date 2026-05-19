@@ -9,6 +9,7 @@
 .headliner {
   background-image: url('../Assets/test-banner.jpg');
   background-size: cover;
+  b
   background-color: var(--bg-color-1);
   min-height: 90vh;
   width: 100%;
@@ -62,9 +63,15 @@
   .headliner {
     min-height: 80vh;
   }
-  .headline-sell{
+  .headline-sell {
     padding: 0 0 0 15rem;
     font-size: 1.5rem !important;
     max-width: 800px;
+  }
+  .headline-sell>h2{
+    font-size: 2rem !important;
+  }
+  .headline-sell>p{
+    font-size: 1.5rem !important;
   }
 }
