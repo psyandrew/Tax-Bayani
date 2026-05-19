@@ -11,7 +11,7 @@ function Headline() {
 
         <p className='headline-sell-p a2'>We built TaxBayani because we believe navigating the paperwork to run a business or a freelance profession shouldn't keep you up at night.</p>
         
-          <Link className="banner-btn" href="/contact">GET IN TOUCH</Link>
+          <Link className="banner-btn" to="/contact">GET IN TOUCH</Link>
       </div>
     </section>
   );
