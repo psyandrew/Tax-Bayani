@@ -50,7 +50,7 @@
 .banner-btn:hover {
   background-color: var(--accent-color-2);
   cursor: pointer;
-  transform: scale(1.05);
+  transform: translateY(0) scale(1.05);
 }
 
 /* Medium devices (tablets, 768px and up) */
