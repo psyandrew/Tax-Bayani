@@ -17,8 +17,11 @@
 
 .consultation-img{
   background-image: url('../../Assets/home-pagetest2.png');
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
   border-bottom: 1px solid var(--accent-color-1);
-  min-height: 300px;
+  min-height: 500px;
   width: 100%;
   max-width: 1000px;
   border-bottom: ;
@@ -65,7 +68,7 @@
 
 @media (min-width: 1024px) {
   .consultation-section {
-    padding: 37.5rem 0rem 5rem 0rem;
+    padding: 5rem 0rem;
   }
 
   .consultation-sell {
