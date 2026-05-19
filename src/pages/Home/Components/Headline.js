@@ -2,8 +2,6 @@ import { Link } from 'react-router-dom';
 
 function Headline() {
 
-  const navigate = useNavigate();
-
   return (
     <section className="headliner">
       <div className="headline-sell">
