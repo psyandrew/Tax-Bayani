@@ -9,7 +9,7 @@
 }
 
 .services-headline {
-  background-image: url('../Assets/services-banner.png');
+  background-image: url('../Assets/services-banner.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -84,7 +84,7 @@
 }
 
 .fiscal-rep{
-	background-image: url('../Assets/fiscal-rep.png');
+	background-image: url('../Assets/fiscal-rep.jpg');
 	background-position: center;
 	background-size: cover;
 }
