@@ -8,7 +8,7 @@
   background-repeat: no-repeat;
   background-color: var(--primary-color);
   min-height: 20vh;
-  padding: 22.5rem 2rem 2.5rem 2rem;
+  padding: 2.5rem 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
