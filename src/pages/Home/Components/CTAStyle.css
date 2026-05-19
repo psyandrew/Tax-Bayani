@@ -1,7 +1,7 @@
 /* CTA / CONTACT SECTION */
 .cta {
-  border-top: 1px solid var(--accent-color-1);
-  border-bottom: 1px solid var(--accent-color-1);
+  border-top: 1px solid var(--accent-color-2);
+  border-bottom: 1px solid var(--accent-color-2);
   background-color: var(--primary-color);
   width: 100%;
   font-family: var(--font-4);
