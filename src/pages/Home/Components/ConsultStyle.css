@@ -2,7 +2,7 @@
 .consultation-section {
   border-top: 1px solid var(--accent-color-1);
   border-bottom: 1px solid var(--accent-color-1);
-  background-image: url('../../Assets/home-pagetest2.png');
+ /* background-image: url('../../Assets/home-pagetest2.png');*/
   background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
@@ -16,11 +16,12 @@
   gap: 30px;
 }
 
-.logo-image-contact{
-    height: 100px;
-    width: auto;
-    display: block;
-    border-radius: 100%;
+.consultation-img{
+  background-image: url('../../Assets/home-pagetest2.png');
+  border-bottom: 1px solid var(--accent-color-1);
+  min-height: 500px;
+  max-width: 1000px;
+  border-bottom: ;
 }
 
 .consultation-header {
