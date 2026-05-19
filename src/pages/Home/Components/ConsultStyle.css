@@ -18,7 +18,8 @@
 .consultation-img{
   background-image: url('../../Assets/home-pagetest2.png');
   border-bottom: 1px solid var(--accent-color-1);
-  min-height: 500px;
+  min-height: 300px;
+  width: 100%;
   max-width: 1000px;
   border-bottom: ;
 }
