@@ -14,7 +14,7 @@ function Headline() {
       <p>We built TaxBayani because we believe navigating the paperwork to run a business or a freelance profession shouldn't keep you up at night.</p>
       
 
-      <Link className="banner-btn"onClick={() => navigate('/contact')}>GET IN TOUCH</Link>
+      <Link className="banner-btn" href="/contact">GET IN TOUCH</Link>
       </div>
     </section>
   );
