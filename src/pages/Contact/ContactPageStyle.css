@@ -55,6 +55,8 @@ h2.contact-h2 {
    flex-direction: column;
    align-items: center;
    justify-content: center;
+   border-bottom: 1px solid var(--accent-color-1);
+   padding: 0 0 1.5rem 0;
 }
 
 .contact-invite {
@@ -106,6 +108,24 @@ h2.contact-h2 {
    justify-content: center;
    gap: 0.5rem;
 
+}
+
+.confirm-container{
+   padding: 0 1.75rem;
+   align-items: center;
+   text-align: center;
+   font-size: 1.25rem;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: flex-start;
+   gap: 0.5rem;
+
+}
+
+.we-got-mail {
+   height: 100px;
+   width: 125px;
 }
 
 .form-group {

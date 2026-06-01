@@ -2,6 +2,7 @@ import './HomePageStyle.css';
 import HeaderNavbar from '../Global Components/HeaderNavbar.js'
 import Footer from '../Global Components/Footer.js'
 import Headline from '../Home/Components/Headline.js'
+import AboutUs from '../Home/Components/AboutUs.js'
 import Services from '../Home/Components/Services.js'
 import WhyUs from '../Home/Components/WhyUs.js'
 import CTA from '../Home/Components/CTA.js'
@@ -13,6 +14,7 @@ function HomePage() {
     <section className="Home">
       < HeaderNavbar/>
       < Headline />
+      < AboutUs />
       < Services />
       < CTA />
       < WhyUs />

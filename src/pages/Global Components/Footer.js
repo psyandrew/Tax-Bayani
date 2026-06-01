@@ -1,10 +1,57 @@
+import facebookIcon from '../Assets/facebook-icon-square.png';
+import { Phone, Mail, MapPin} from 'iconoir-react';
 import './FooterHeaderNavbarStyles.css';
+import { Link } from 'react-router-dom';
+import logo from '../Assets/logo.png';
 
 function Footer() {
   return (
-    <div className="footer">
-
-    </div>
+    <footer className="footer">
+      <div className="footer-container">
+        <div className="footer-col-1">
+          <Link to="/services#tax-compliance" className="footer-mini-link">
+          <img src={logo} alt="TaxBayani Logo" className="logo-image-footer" />
+          <h2>TAXBAYANI</h2>
+          <p>Business solutions for local enterprises</p>
+          </Link>
+        </div>
+        <div className="footer-col-2">
+          <h3><Link to="/faq" className="footer-header-link">FAQ</Link></h3>
+          <h3><Link to="/services" className="footer-header-link">OUR SERVICES</Link></h3>
+          <div className='services-li'>
+            <Link to="/services#tax-compliance" className="footer-mini-link"><span className="arrow">&gt;</span> Tax Compliance</Link>
+            <Link to="/services#fiscal-report" className="footer-mini-link"><span className="arrow">&gt;</span> Fiscal Report</Link>
+            <Link to="/services#business-permits" className="footer-mini-link"><span className="arrow">&gt;</span> Business Permits</Link>
+            <Link to="/services#business-transition" className="footer-mini-link"> <span className="arrow">&gt;</span> Business Transition</Link>
+          </div>
+        </div>
+        <div className="footer-col-3">
+          <h2><Link to="/contact" className="footer-header-link">CONTACT US</Link></h2>
+          <div className="social-container">
+            <a href="https://google.com" target="_blank" rel="noreferrer">
+              <img src={facebookIcon} alt="Facebook" className="social-icon" />
+            </a>
+          </div>
+          <div className="footer-contact-item">
+            <Mail className="contact-icon-footer" />
+            <p className="contact-detail">: support@taxbayani.ph</p>
+          </div>
+  
+          <div className="footer-contact-item">
+            <Phone className="contact-icon-footer" />
+            <p className="contact-detail">: +63 917 123 4567</p>
+          </div>
+  
+          <div className="footer-contact-item">
+            <MapPin className="contact-icon-footer" />
+            <p className="contact-detail">: Metro Manila, Philippines</p>
+          </div>
+          
+          
+        </div>
+      </div>
+      
+    </footer>
   );
 }
 

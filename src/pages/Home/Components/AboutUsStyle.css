@@ -1,0 +1,55 @@
+.abt-us{
+  background-color: var(--bg-color-3);
+  height: 600px;
+  width: auto;
+
+  font-family: var(--font-3);
+  border-bottom: 1px solid var(--accent-color-2);
+  background-image: url('../../Assets/about-us.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+.abt-us-container{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 2rem 1.5rem 10rem 1.5rem;
+}
+
+.abt-us-container>h2{
+  color: var(--accent-color-2);
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.abt-us-container>p{
+  font-size: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.a3{
+  opacity: 0;
+  transform: translateY(20px);
+  /* This prevents the elements from flashing onto the screen before animating */
+  animation-fill-mode: forwards; 
+  /* Smooth easing curve */
+  animation-timing-function: cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+/* 2. Create the core materialization effect */
+@keyframes materialize {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* 3. Assign the animation and specific timings/delays */
+.a3 {
+  animation-name: materialize;
+  animation-duration: 0.8s;
+  animation-delay: 1.75s;
+}
