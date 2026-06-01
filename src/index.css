@@ -15,7 +15,8 @@ body {
   --bg-color-2:#202427; /*LightCarbon Black*/
   --bg-color-3:#262A2E; /*jet black*/
   --accent-color-1: #14522d;/*dark spruce*/
-  --accent-color-2: #228b22;/*forest green*/
+  --accent-color-2: #228b22; /*forest green*/
+  --accent-color-3: #30c530 /*lime green*/
   --text-color: #333333;  /*white*/
 
   --font-1: 'Playfair', serif;
