@@ -246,7 +246,13 @@
     align-items: flex-start;
     justify-content: space-evenly;
 
+
   }
+
+  .footer{
+    padding: 2rem 0rem;
+  }
+
 
   .footer-mini-link, .footer-contact-item{
     font-size: 1.25rem;
@@ -261,7 +267,5 @@
     flex-direction: column;
   }
 
-  .footer{
-    padding: 0.5rem 0rem;
-  }
+  
 }

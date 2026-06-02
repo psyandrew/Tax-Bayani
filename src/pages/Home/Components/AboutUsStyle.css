@@ -1,6 +1,6 @@
 .abt-us{
   background-color: var(--bg-color-3);
-  height: 600px;
+  height: 650px;
   width: auto;
 
   font-family: var(--font-3);
@@ -41,18 +41,19 @@
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
   .abt-us{
-    height: 650px;
+    height: 900px;
   }
 
   .abt-us-container>h2{
-    font-size: 4rem;
+    font-size: 5rem;
   }
 
   .abt-us-container>p{
-    font-size: 1.25rem;
-    max-width: 800px;
+    font-size: 1.75rem;
+    letter-spacing: 0.25rem;
+    max-width: 900px;
   }
 }
 
@@ -77,5 +78,5 @@
 .a3 {
   animation-name: materialize;
   animation-duration: 0.8s;
-  animation-delay: 1.75s;
+  animation-delay: 1.25s;
 }
