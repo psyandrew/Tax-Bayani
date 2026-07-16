@@ -76,14 +76,15 @@ h2.query-headline {
 }
 
 .qna-a{
-  text-align: justify;
+
   font-size: 1.25rem;
   font-family: var(--font-3);
   text-justify: inter-word; 
   text-wrap: pretty;
   line-height: 1.5;
+  white-space: pre-line;
 }
 
-{
-  
+.topic{
+  font-family: var(--font-3);
 }

@@ -28,7 +28,7 @@ function Footer() {
         <div className="footer-col-3">
           <h2><Link to="/contact" className="footer-header-link">CONTACT US</Link></h2>
           <div className="social-container">
-            <a href="https://google.com" target="_blank" rel="noreferrer">
+            <a href="https://www.facebook.com/profile.php?id=61591518763841" target="_blank" rel="noreferrer">
               <img src={facebookIcon} alt="Facebook" className="social-icon" />
             </a>
           </div>

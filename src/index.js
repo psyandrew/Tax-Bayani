@@ -42,3 +42,11 @@ root.render(
 );
 
 
+/*
+   { 
+    path: '/',
+    element: </>
+  }
+
+
+*/
