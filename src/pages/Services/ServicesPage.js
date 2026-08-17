@@ -43,10 +43,9 @@ function ServicesPage() {
     <section className="services-page">
       < HeaderNavbar/>
       < ServicesHeadline />
-      < ServicesSection bg={'ltg'} secID={'tax-compliance'}  txtblock={'TC'} pic={'tax-compliance'} head={'TAX COMPLIANCE'}/>
-      < ServicesSection bg={'dkg'} secID={'fiscal-reporting'} txtblock={'FR'}  pic={'fiscal-rep'} head={'FISCAL REPORTING'} />
-      < ServicesSection bg={'ltg'} secID={'business-permits'} txtblock={'BP'}  pic={'business-perm'} head={'BUSINESS PERMITS'}/>
-      < ServicesSection bg={'dkg'} secID={'business-transition'} txtblock={'BT'}  pic={'business-transition'} head={'BUSINESS TRANSITION'}/>
+      < ServicesSection bg={'ltg'} secID={'tax-compliance'}  txtblock={'TC'} pic={'tax-compliance'} head={'TAX COMPLIANCE AND FINANCIAL REPORTING'}/>
+      < ServicesSection bg={'dkg'} secID={'business-permits'} txtblock={'BP'}  pic={'business-perm'} head={'BUSINESS PERMITS'}/>
+      < ServicesSection bg={'ltg'} secID={'business-transition'} txtblock={'BT'}  pic={'business-transition'} head={'BUSINESS UPDATES'}/>
       < Footer/>
     </section >
   );

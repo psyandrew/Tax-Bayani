@@ -1,4 +1,4 @@
-import { Shop, Coins, UserBadgeCheck,  Heart, Learning, HomeUser} from 'iconoir-react';
+import { Shop, Coins, UserBadgeCheck, Learning, HomeUser, PageEdit} from 'iconoir-react';
 import WhyUsCard from './WhyUsCard.js'
 
 import './WhyUsStyle.css'
@@ -14,7 +14,7 @@ function WhyUs() {
         < WhyUsCard WhyUsCardProp={whyUsOBJ[2]} icon={Learning} stroke={1}/>
       </div>
       <div className="y-us-feature-card-container">
-        < WhyUsCard WhyUsCardProp={whyUsOBJ[3]} icon={Heart} stroke={1}/>
+        < WhyUsCard WhyUsCardProp={whyUsOBJ[3]} icon={PageEdit} stroke={1}/>
         < WhyUsCard WhyUsCardProp={whyUsOBJ[4]} icon={Shop} stroke={1}/>
       < WhyUsCard WhyUsCardProp={whyUsOBJ[5]} icon={HomeUser} stroke={1}/>
       </div>
@@ -31,22 +31,22 @@ const whyUsOBJ= [
   },
     {
     "title": "COMPETENT",
-    "sell":"We are Professionals that give bang for your buck!"
+    "sell":"Reliable expertise to get your requirements done right."
   },
   {
-    "title": "IDK MAN",
-    "sell":"We are Professionals that give bang for your buck!"
+    "title": "PEACE OF MIND",
+    "sell":"We keep your compliance in order so you can focus on running your business."
   },
   {
-    "title": "WE CARE",
-    "sell":"We are Professionals that give bang for your buck!"
+    "title": "FLEXIBLE",
+    "sell":"Get the services you need without being tied to a long-term commitment."
   },
     {
     "title": "SME SPECIALIST",
-    "sell":"We are Professionals that give bang for your buck!"
+    "sell":"Practical solutions built around the needs of growing businesses."
   },
     {
     "title": "FREELANCER'S FRIEND",
-    "sell":"We are Professionals that give bang for your buck!"
+    "sell":"Professional support tailored to Freelancer clients."
   },
 ]

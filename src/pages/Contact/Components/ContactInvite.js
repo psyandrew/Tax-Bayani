@@ -17,16 +17,6 @@ const ContactInvite = () => {
           </div>
         </div>
 
-        {/* Phone */}
-        <div className="contact-info-item">
-          <div className="icon-wrapper">
-            <Phone height={30} width={30} strokeWidth={2.5} />
-          </div>
-          <div className="info-text">
-            <p>+63 912 345 6789</p>
-          </div>
-        </div>
-
         {/* Schedule/Clock */}
         <div className="contact-info-item">
           <div className="icon-wrapper">
@@ -52,3 +42,18 @@ const ContactInvite = () => {
 };
 
 export default ContactInvite;
+
+/*     
+
+Phone 
+        <div className="contact-info-item">
+          <div className="icon-wrapper">
+            <Phone height={30} width={30} strokeWidth={2.5} />
+          </div>
+          <div className="info-text">
+            <p>+63 912 345 6789</p>
+          </div>
+        </div>
+
+
+*/

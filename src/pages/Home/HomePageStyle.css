@@ -55,6 +55,10 @@
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+  .headline-sell{
+    margin-left: 3rem;
+  }
+
   .headline-sell-h2{
     font-size: 3.5rem !important;
   }
@@ -86,6 +90,7 @@
     font-size: 2.25rem !important;
   }
   .headline-sell{
+    margin-left: 0;
     padding: 0 0 0 8rem;
     max-width: 1250px;
   }

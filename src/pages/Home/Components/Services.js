@@ -9,7 +9,7 @@ function Services() {
       <p className="services-h2-p">Here is how we can assist you with the important stuff, just let us handle it!</p>
       <div className="service-feature-card-container">
         <ServiceCard serviceCardProp={servicesOBJ[0]} icon={HandCash} stroke={1.5} linkTo={'/services#tax-compliance'}/>
-        <ServiceCard serviceCardProp={servicesOBJ[1]} icon={Book} stroke={1.5} linkTo={'/services#fiscal-reporting'}/>
+        <ServiceCard serviceCardProp={servicesOBJ[1]} icon={Book} stroke={1.5} linkTo={'/services#tax-compliance'}/>
       </div>
       <div className="service-feature-card-container">
         <ServiceCard serviceCardProp={servicesOBJ[2]} icon={Journal} stroke={1.5} linkTo={'/services#business-permits'}/>

@@ -241,20 +241,19 @@ h2.contact-h2 {
    justify-content: center;
 }
 
-.contact-logo{
-   padding: 2rem 0;
-   background-image: url('../Assets/logo.png');
-   background-position: center center;
-   background-size: cover;
-   background-repeat: no-repeat;
-   height:125px;
-   width: 125px;
-   border-radius: 100%;
-}
+   .logo-image-contact-page {
+    border-radius: 100%;
+    display: block;
+    height: 0px;
 
-.logo-image-contact-page {
+   }
+
+
+@media (min-width: 992px) {
+   .logo-image-contact-page {
     border-radius: 100%;
     display: block;
     height: 175px;
     width: auto;
+   }
 }
