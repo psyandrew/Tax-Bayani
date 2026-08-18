@@ -1,4 +1,4 @@
-import { Phone, Mail, Clock, MapPin } from 'iconoir-react';
+import { Mail, Clock, MapPin } from 'iconoir-react';
 
 const ContactInvite = () => {
   return (

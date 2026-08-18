@@ -1,5 +1,5 @@
 import facebookIcon from '../Assets/facebook-icon-square.png';
-import { Phone, Mail, MapPin} from 'iconoir-react';
+import { Mail, MapPin} from 'iconoir-react';
 import './FooterHeaderNavbarStyles.css';
 import { Link } from 'react-router-dom';
 import logo from '../Assets/logo.png';
