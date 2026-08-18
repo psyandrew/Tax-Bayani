@@ -45,7 +45,7 @@ const servicesOBJ=[
   },
   {
     "id": 4,
-    "title": "BUSINESS TRANSITIONS",
+    "title": "BUSINESS UPDATES",
     "scope": "Transfers, Tax Clearances, Terminations",
     "highlight":"Clean transitions, zero baggage.",
     "sell": "Whether moving or closing a business. Let us manage the documentation and clear the records to secure an official Tax Clearance, no more residual liabilities or open cases."
