@@ -1,5 +1,5 @@
 import './CTAStyle.css'
-import { Phone, Mail, MapPin} from 'iconoir-react';
+import { Mail, MapPin} from 'iconoir-react';
 
 
 function CTA() {
@@ -13,12 +13,7 @@ function CTA() {
             <p>taxbayani@gmail.com</p>
           </div>
 
-          <div  className="contact-card">
-            <div className="contact-icon-bg">
-              < Phone height={40} width={40}  strokeWidth={1.75} className="contact-icon" />
-            </div>
-            <p>0912-345-6789</p>
-          </div>
+
 
           <div  className="contact-card">
             <div className="contact-icon-bg">
@@ -32,3 +27,11 @@ function CTA() {
 }
 
 export default CTA;
+/*          
+<div  className="contact-card">
+            <div className="contact-icon-bg">
+              < Phone height={40} width={40}  strokeWidth={1.75} className="contact-icon" />
+            </div>
+            <p>0912-345-6789</p>
+          </div>
+*/
