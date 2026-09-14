@@ -11,7 +11,7 @@ function ConsultShortcut(){
     navigate('/contact#logo'); // Make sure this matches your Route path
   };
 
-        {/* This hidden image forces the browser to preload the hover asset */}
+        /* This hidden image forces the browser to preload the hover asset */
   return (
 
       <>

@@ -1,4 +1,4 @@
-import { Mail, Clock, MapPin, ChatBubble, FacebookTag } from 'iconoir-react';
+import { Mail, Clock, ChatBubble, FacebookTag } from 'iconoir-react';
 
 const ContactInvite = () => {
   return (
