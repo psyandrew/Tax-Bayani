@@ -165,11 +165,17 @@
   width: 40px;         
   height: auto;
   display: block;     
-  transition: transform 0.2s ease;
+  transition: transform 0.8s ease;
 }
 
 .social-icon:hover {
-  transform: scale(1.01);
+  transform: scale(1.05);
+}
+
+.social-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .footer-col-1>a{

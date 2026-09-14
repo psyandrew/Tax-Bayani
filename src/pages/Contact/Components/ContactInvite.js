@@ -1,41 +1,64 @@
-import { Mail, Clock, MapPin } from 'iconoir-react';
+import { Mail, Clock, MapPin, ChatBubble, FacebookTag } from 'iconoir-react';
 
 const ContactInvite = () => {
   return (
     <div className="contact-invite">
       <div className="contact-page-details">
 
-
-
         {/* Email */}
         <div className="contact-info-item">
+          
           <div className="icon-wrapper">
             <Mail height={30} width={30} strokeWidth={2.5} />
           </div>
+
           <div className="info-text">
-            <p>hello@gabay.com</p>
+            <p>taxbayani@gmail.com</p>
           </div>
+        
         </div>
 
         {/* Schedule/Clock */}
         <div className="contact-info-item">
+
           <div className="icon-wrapper">
             <Clock height={30} width={30} strokeWidth={2.5} />
           </div>
+
           <div className="info-text">
-            <p>Mon - Fri: 9:00 AM - 5:00 PM</p>
+            <p>Mon - Fri: 9:00 AM - 6:00 PM</p>
+          </div>
+
+        </div>
+
+        {/* Messenger */}
+        <div className="contact-info-item">
+
+          <div className="icon-wrapper">
+            <ChatBubble height={30} width={30} strokeWidth={2.5} />
+          </div>
+          <div className="info-text">
+            <p>m.me/Taxbayani</p>
           </div>
         </div>
 
-        {/* Location */}
+        {/* fb page  */}
         <div className="contact-info-item">
+
           <div className="icon-wrapper">
-            <MapPin height={30} width={30} strokeWidth={2.5} />
+            <FacebookTag height={30} width={30} strokeWidth={2.5} />
           </div>
+
           <div className="info-text">
-            <p>123 Street Name, City, Country</p>
+            <p>fb/Taxbayani</p>
           </div>
-        </div>
+
+         </div> 
+
+
+
+        {/* END  */}
+
       </div>
     </div>
   );

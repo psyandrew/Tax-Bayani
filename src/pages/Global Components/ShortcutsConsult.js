@@ -11,11 +11,15 @@ function ConsultShortcut(){
     navigate('/contact#logo'); // Make sure this matches your Route path
   };
 
-
+        {/* This hidden image forces the browser to preload the hover asset */}
   return (
-  <div className="consult-shortcut" onClick={handleNavigation}>
 
-      </div>
+      <>
+        <img src="../Assets/contact-us-hover.png" alt="" style={{ display: 'none' }} />
+        <div className="consult-shortcut" onClick={handleNavigation}>
+
+        </div>
+      </>
   )
 }
 

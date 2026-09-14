@@ -43,8 +43,6 @@
 	padding: 2rem 0;
 }
 
-
-
 .pic-container{
 	border: 1px solid var(--accent-color-1);
 	min-height: 300px;
@@ -66,16 +64,30 @@
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
+  text-justify: inter-word;
+  text-wrap: pretty;
 	justify-content: center;
-	font-size: 1.25rem;
+	font-size: 0.9rem;
 	max-width: 1200px;
 	gap: 2rem;
 }
 
-.txt-block-2,.txt-block-1 {
+.sell-txt{
 	display: flex;
 	flex-direction: column;
 	gap: 0.5rem;
+}
+
+.txt-block-1 {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+}
+
+.txt-block-2 {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
 }
 
 .tax-compliance{
@@ -103,12 +115,49 @@
 	background-size: cover;
 	font-size: 1.5rem;
 }
+
+.toggle-btn-container {
+	display: flex;
+	justify-content: center;
+}
+
+.toggle-btn{
+	color: var(--accent-color-1);
+	transition: color 1s ease;
+  transition: transform 1s ease;
+}
+
+.toggle-btn:hover{
+	cursor: pointer;
+	color: var(--accent-color-2);
+	transform: scale(1.1);
+}
+
+
+.hide-container{
+	display: none;
+}
+
+.TC-toggle-container, .fr-toggle-container,
+.bp-toggle-container, .bt-toggle-container{
+	
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	align-self: center;
+	gap:1rem;
+}
+
 @media (min-width: 768px) {
 	.pic-container{
 		min-height: 350px;
 		width: 675px;
 		max-width: 700px;
 		font-size: 2rem;
+	}
+	.TC-toggle-container, .fr-toggle-container,
+	.bp-toggle-container, .bt-toggle-container{
+		width: 95%;
 	}
 }
 
@@ -139,9 +188,13 @@
 	}
 
 	.sell-container{
-		flex-direction: row;
 		gap: 3rem;
 		padding: 3rem 1.5rem;
+	}
+
+	.TC-toggle-container, .fr-toggle-container,
+	.bp-toggle-container, .bt-toggle-container {
+		width: 95%
 	}
 }
 

@@ -1,5 +1,5 @@
 import './CTAStyle.css'
-import { Mail, MapPin} from 'iconoir-react';
+import { Mail, ChatBubble, FacebookTag} from 'iconoir-react';
 
 
 function CTA() {
@@ -13,13 +13,18 @@ function CTA() {
             <p>taxbayani@gmail.com</p>
           </div>
 
-
+          <div  className="contact-card">
+            <div className="contact-icon-bg">
+              < ChatBubble height={40} width={40}  strokeWidth={1.75} className="contact-icon" />
+            </div>
+            <p>m.me/Taxbayani</p>
+          </div>
 
           <div  className="contact-card">
             <div className="contact-icon-bg">
-              < MapPin height={40} width={40}  strokeWidth={1.75} className="contact-icon"  />
+              < FacebookTag height={40} width={40}  strokeWidth={1.75} className="contact-icon"  />
             </div>
-            <p>Caloocan, Caloocan City</p>
+            <p>fb/Taxbayani</p>
           </div>
         </div>      
     </section>

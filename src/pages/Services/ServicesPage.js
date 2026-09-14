@@ -44,7 +44,7 @@ function ServicesPage() {
       < HeaderNavbar/>
       < ServicesHeadline />
       < ServicesSection bg={'ltg'} secID={'tax-compliance'}  txtblock={'TC'} pic={'tax-compliance'} head={'TAX COMPLIANCE AND FINANCIAL REPORTING'}/>
-      < ServicesSection bg={'dkg'} secID={'business-permits'} txtblock={'BP'}  pic={'business-perm'} head={'BUSINESS PERMITS'}/>
+      < ServicesSection bg={'dkg'} secID={'business-permits'} txtblock={'BP'}  pic={'business-perm'} head={'BUSINESS PERMITS AND REGISTRATIONS'}/>
       < ServicesSection bg={'ltg'} secID={'business-transition'} txtblock={'BT'}  pic={'business-transition'} head={'BUSINESS UPDATES'}/>
       < Footer/>
     </section >
