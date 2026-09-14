@@ -59,14 +59,14 @@ h2.query-headline {
   padding: 30px 25px 25px 25px;
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 20px;
   max-width: 1000px;
 }
 
 .qna{
  display: flex;
  flex-direction: column;
- gap: 25px;
+ gap: 15px;
 }
 
 .qna-q{
