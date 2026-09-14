@@ -9,7 +9,7 @@ const ContactInvite = () => {
         <div className="contact-info-item">
           
           <div className="icon-wrapper">
-            <Mail height={10} width={10} strokeWidth={2.5} />
+            <Mail height={45} width={45} strokeWidth={1.5} />
           </div>
 
           <div className="info-text">
@@ -22,7 +22,7 @@ const ContactInvite = () => {
         <div className="contact-info-item">
 
           <div className="icon-wrapper">
-            <Clock height={10} width={10} strokeWidth={2.5} />
+            <Clock height={45} width={45} strokeWidth={1.5} />
           </div>
 
           <div className="info-text">
@@ -35,7 +35,7 @@ const ContactInvite = () => {
         <div className="contact-info-item">
 
           <div className="icon-wrapper">
-            <ChatBubble height={10} width={10} strokeWidth={2.5} />
+            <ChatBubble height={45} width={45} strokeWidth={1.5} />
           </div>
           <div className="info-text">
             <p>m.me/Taxbayani</p>
@@ -46,7 +46,7 @@ const ContactInvite = () => {
         <div className="contact-info-item">
 
           <div className="icon-wrapper">
-            <FacebookTag height={10} width={10} strokeWidth={2.5} />
+            <FacebookTag height={45} width={45} strokeWidth={1.5} />
           </div>
 
           <div className="info-text">
@@ -71,7 +71,7 @@ export default ContactInvite;
 Phone 
         <div className="contact-info-item">
           <div className="icon-wrapper">
-            <Phone height={10} width={10} strokeWidth={2.5} />
+            <Phone height={45} width={45} strokeWidth={1.5} />
           </div>
           <div className="info-text">
             <p>+63 912 345 6789</p>
