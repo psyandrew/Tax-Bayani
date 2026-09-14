@@ -1,7 +1,7 @@
 import React, { StrictMode } from "react";
 import { createRoot} from "react-dom/client";
 import {createBrowserRouter, RouterProvider} from 'react-router-dom';
-import hoverImg from '../Assets/contact-us-hover.png';
+
 
 import './index.css';
 
